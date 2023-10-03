@@ -1,0 +1,76 @@
+@charset "UTF8";
+
+@import url("https://fonts.googleapis.com/css?family=Inconsolata");
+
+@font-face {
+font-family: "Android";
+src: url('..fontes/idroid.otf');
+font=weight:normal;
+}
+
+/*
+#cSeb16
+#83e1ad
+#3ddC84
+#2fa366
+#1asc37
+#063d1a
+*/
+:root {
+--cor0: rgb(175, 233, 175);
+--cor1:rgb(61, 247, 61);
+--cor2:rgb(55, 151, 95);
+--cor3:rgb(39, 146, 39);
+--cor4:rgb(16, 109, 16);
+--cor5:rgb(2, 54, 2);
+
+--font-padrao: arial, verdana, helvetica, sans-serif;
+--font-destaque: 'Bebas Neve', cursive;
+--fonte-android: 'Android', cursive;
+}
+
+/*
+* {
+
+}
+(*) é usado para aplicar stilos em todos os elementos HTML da página
+*/
+*{
+margin: 0px;
+padding: 0px;
+
+}
+body {
+    background-color: var(--cor0);
+    font-family: var(--font-padrao);
+}
+
+header {
+    background-color: var(--cor4);
+    min-height: 150px;
+    text-align: center;
+    padding-top: 45px;
+    background-image: linear-gradient(to bottom, var(--cor1), var(--cor5));
+}
+
+header > h1 {
+    color:white;
+    font-family: var(--font-destaque);
+    font-weight: normal;
+    margin-bottom: 20px;
+    font-size: 3em;
+    text-shadow: 2px 2px 0px black;
+}
+
+header {
+color:white;
+font-family: var(--font-padrao);
+font-size: 1.2cm;
+margin: auto;
+padding-left: 10px;
+padding-right: 10px;
+margin-bottom: 20px;
+text-shadow: 2px 2px 0px black;
+
+
+}
