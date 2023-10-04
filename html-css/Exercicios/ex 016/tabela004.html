@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        body {
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    table {
+        width: 500px;
+        border-collapse: collapse;
+        position: relative;
+        margin-left: 30px;
+        font-family: 'Times New Roman', Times, serif;
+    }
+
+    td, th {
+        border: 1px solid black;
+        padding: 10px;
+    }
+
+    
+    th.tit {
+        background-color: rgb(245, 11, 101);
+        
+    }
+    th.tot {
+        background-color: cadetblue;
+    }
+   th.num{
+    background-color: cadetblue;
+   }
+   th.gru {
+    background-color: rgb(182, 220, 221);
+   }
+   th.nom {
+    background-color: rgb(182, 220, 221);
+   }
+   th.fil {
+    background-color: rgb(182, 220, 221);
+   }
+   h1 {
+    text-align:justify;
+    color:black;
+    font-size: 1.5em;
+    font-family: 'Times New Roman', Times, serif;
+   }
+
+    </style>
+</head>
+<body>
+    <h1>Exercício de tabelas</h1>
+    <table>
+        <thead>
+            <tr>
+                <th colspan="5" class="tit">Filmes Preferidos</th>
+            </tr>
+        <tr>
+            <th class="gru">Grupos</th>
+            <th class="nom">Nomes</th>
+            <th colspan="3" class="fil">filmes</th>
+        </tr>
+        <tr>
+            <td rowspan="3">Mulheres</th>
+            <th>Alice Barboza</th>
+            <th>Anonimo</th>
+            <th>Deadpool</th>
+            <th>Morbius</th>
+        </tr>
+        <tr>
+            <th>Alessandra Oliveira</th>
+            <th>Caça Mortal</th>
+            <th>Corra</th>
+            <th>Toy Story</th>
+        </tr>
+        <tr>
+            <th>Luciana Dutra</th>
+            <th>Zoom</th>
+            <th>Adão Negro</th>
+            <th>Battleship</th>
+        </tr>
+        <tr>
+            <td rowspan="3">Homens</th>
+            <th>Rafael Gonzalez</th>
+            <th>Skyline</th>
+            <th>Julian</th>
+            <th>A Mulher Rei</th>
+        </tr>
+        <tr>
+            <th>Samuel Albeche</th>
+            <th>Predador</th>
+            <th>Samaritano</th>
+            <th>Anonimo</th>
+        </tr>
+        <tr>
+            <th>Teo</th>
+            <th>Mega Tubarão</th>
+            <th>Ghost</th>
+            <th>Rei Leão</th>
+        </tr>
+        <tr>
+            <th colspan="4" class="tot">Total</th>
+            <th class="num">1000</th>
+        </tr>
+    </table>
+</body>
+</html>
